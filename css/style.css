@@ -147,6 +147,72 @@ p::selection{
 }
 
 
+/* responsive style */
 
+@media only screen and (max-width: 1400px){
+    .banner .welcome{
+        font-size: 40px;
+    }
+}
 
+@media screen and (max-width: 960px){
+    .banner .welcome{
+        font-size: 28px;
+      }
 
+    nav li{
+        font-size: 18px;
+    }  
+}
+
+@media screen and (max-width: 700px){
+    .banner .welcome{
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+      }
+      .banner .welcome br{
+        display: none;
+      }
+      .banner .welcome span{
+        font-size: 1em;
+      }
+      nav li{
+        font-size: 18px;
+      }
+      .images li{
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+      }
+    
+}
+    
+@media screen and (max-width: 560px){
+
+        .banner .welcome{
+          font-size: 20px;
+          position: relative;
+          text-align: center;
+        }
+        .banner .welcome br{
+          display: none;
+        }
+        .banner .welcome span{
+          font-size: 1em;
+        }
+        nav li{
+          display: block;
+          width: 100%;
+          margin: 12px 0;
+        }
+        article h2{
+          font-size: 36px;
+        }
+        header, nav{
+          position: relative;
+          top: 0;
+        }
+        
+      
+}
