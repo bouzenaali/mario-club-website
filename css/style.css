@@ -119,3 +119,34 @@ footer{
     padding: 10px;
     text-align: center;
 }
+
+/* pseudo classes */
+
+nav li a:hover{
+    text-decoration: underline;
+
+}
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+form input:focus{
+    border: 2px solid #4b4b4b;
+    outline: none;
+}
+form input:valid{
+    border: 2px solid #71d300;
+}
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+p::selection{
+    background-color: #f63232;
+    color: white;
+}
+
+
+
+
+
